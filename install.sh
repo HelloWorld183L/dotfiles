@@ -9,7 +9,4 @@ unzip awscliv2.zip
 sudo ./aws/install
 rm awscliv2.zip
 
-python3 -m venv venv
-pip install -r requirements.txt
-
 export PATH='/home/coder/.duckdb/cli/latest':$PATH
